@@ -65,26 +65,26 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q              &kp L         &kp U            &kp COMMA            &kp PERIOD                                   &kp F      &kp W      &kp R        &kp Y          &kp P
-&kp E              &kp I         &kp A            &kp O                &kp MINUS                                    &kp K      &kp T      &kp N        &kp S          &kp H
-&mt2 LEFT_SHIFT Z  &kp X         &mt2 LEFT_ALT C  &mt2 LEFT_CONTROL V  &mt2 SPACE SLASH                             &kp G      &kp D      &kp M        &kp J          &kp B
-&kp LSHFT          &kp LEFT_ALT  &mo 2            &kp LCTRL            &kp SPACE         &kp DELETE  &kp BACKSPACE  &kp ENTER  &kp RCTRL  &mo 1        &kp LC(SPACE)  &kp LC(LA(F12))
-                   &none         &kp RIGHT        &kp DOWN             &kp LEFT          &kp UP      &kp UP         &kp LEFT   &kp DOWN   &kp RIGHT    &none
-&mkp LCLK          &mkp RCLK     &mkp MCLK                                                                                                &mkp LCLK    &mkp RCLK      &mkp MCLK
-&mkp MB4           &mkp MB5      &kp LG(TAB)      &kp LG(D)            &kp LCTRL                                    &mkp MB4   &mkp MB5   &kp LG(TAB)  &kp LG(D)      &kp LCTRL
+&kp Q      &kp L         &kp U        &kp COMMA  &kp PERIOD                                &kp F      &kp W      &kp R        &kp Y          &kp P
+&kp E      &kp I         &kp A        &kp O      &kp MINUS                                 &kp K      &kp T      &kp N        &kp S          &kp H
+&kp Z      &kp X         &kp C        &kp V      &kp SLASH                                 &kp G      &kp D      &kp M        &kp J          &kp B
+&kp LSHFT  &kp LEFT_ALT  &mo 1        &kp LCTRL  &kp SPACE   &kp LC(SPACE)  &kp BACKSPACE  &kp ENTER  &kp RCTRL  &mo 2        &kp LC(SPACE)  &kp LC(LA(F12))
+           &none         &kp RIGHT    &kp DOWN   &kp LEFT    &kp UP         &kp UP         &kp LEFT   &kp DOWN   &kp RIGHT    &none
+&mkp LCLK  &mkp RCLK     &mkp MCLK                                                                               &mkp LCLK    &mkp RCLK      &mkp MCLK
+&mkp MB4   &mkp MB5      &kp LG(TAB)  &kp LG(D)  &kp LCTRL                                 &mkp MB4   &mkp MB5   &kp LG(TAB)  &kp LG(D)      &kp LCTRL
             >;
         };
 
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp F1            &kp F2             &kp F3   &kp F4   &none                   &none             &kp N7             &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-&kp F5            &kp F6             &kp F7   &kp F8   &none                   &kp N0            &kp NUMBER_4       &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&kp F9            &kp F10            &kp F11  &kp F12  &none                   &kp DOT           &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
-&trans            &trans             &trans   &trans   &trans  &trans  &trans  &trans            &trans             &trans        &trans        &kp KP_DIVIDE
-                  &trans             &trans   &trans   &trans  &trans  &trans  &trans            &trans             &trans        &trans
-&trans            &trans             &trans                                                                         &trans        &trans        &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans   &trans   &trans                  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans        &trans        &trans
+&none             &none              &kp UP_ARROW    &none            &none                   &none             &kp N7             &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+&none             &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                   &none             &kp NUMBER_4       &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&none             &none              &none           &none            &none                   &none             &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
+&none             &none              &none           &none            &none   &none   &none   &none             &none              &kp N0        &kp DOT       &kp KP_DIVIDE
+                  &trans             &trans          &trans           &trans  &trans  &trans  &trans            &trans             &trans        &trans
+&trans            &trans             &trans                                                                                        &trans        &trans        &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans          &trans           &trans                  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans        &trans        &trans
             >;
         };
 
