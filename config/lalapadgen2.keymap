@@ -100,13 +100,13 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q              &kp L         &kp U        &kp COMMA  &kp PERIOD                                    &kp F      &kp W     &kp R           &kp Y           &kp P
-&kp E              &kp I         &kp A        &kp O      &kp MINUS                                     &kp K      &kp T     &kp N           &kp S           &kp H
-&mt2 LEFT_SHIFT Z  &kp X         &kp C        &kp V      &kp SLASH                                     &kp G      &kp D     &kp M           &kp J           &kp B
-&kp LSHFT          &kp LEFT_ALT  &kp LCTRL    &mo 1      &kp SPACE   &kp LC(BACKSPACE)  &kp LC(SPACE)  &kp ENTER  &mo 2     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                   &none         &kp RIGHT    &kp DOWN   &kp LEFT    &kp UP             &kp UP         &kp LEFT   &kp DOWN  &kp RIGHT       &none
-&mkp LCLK          &mkp RCLK     &mkp MCLK                                                                                  &mkp LCLK       &mkp RCLK       &mkp MCLK
-&mkp MB4           &mkp MB5      &kp LG(TAB)  &kp LG(D)  &kp LCTRL                                     &mkp MB4   &mkp MB5  &kp LG(TAB)     &kp LG(D)       &kp LCTRL
+&kp Q              &kp L         &kp U        &kp COMMA  &kp PERIOD                                &kp F      &kp W     &kp R           &kp Y           &kp P
+&kp E              &kp I         &kp A        &kp O      &kp MINUS                                 &kp K      &kp T     &kp N           &kp S           &kp H
+&mt2 LEFT_SHIFT Z  &kp X         &kp C        &kp V      &kp SLASH                                 &kp G      &kp D     &kp M           &kp J           &kp B
+&kp LSHFT          &kp LEFT_ALT  &kp LCTRL    &mo 1      &kp SPACE   &kp BACKSPACE  &kp LC(SPACE)  &kp ENTER  &mo 2     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                   &none         &kp RIGHT    &kp DOWN   &kp LEFT    &kp UP         &kp UP         &kp LEFT   &kp DOWN  &kp RIGHT       &none
+&mkp LCLK          &mkp RCLK     &mkp MCLK                                                                              &mkp LCLK       &mkp RCLK       &mkp MCLK
+&mkp MB4           &mkp MB5      &kp LG(TAB)  &kp LG(D)  &kp LCTRL                                 &mkp MB4   &mkp MB5  &kp LG(TAB)     &kp LG(D)       &kp LCTRL
             >;
         };
 
