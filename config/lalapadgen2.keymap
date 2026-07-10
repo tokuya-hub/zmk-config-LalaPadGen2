@@ -58,14 +58,39 @@
             key-positions = <10 11>;
         };
 
-        COMBO_UP {
+        COMBO_UP_L {
             bindings = <&kp UP_ARROW>;
             key-positions = <39 40>;
         };
 
         COMBO_AQUA {
-            bindings = <&kp LA(F12)>;
+            bindings = <&kp LA(LC(F12))>;
             key-positions = <12 13>;
+        };
+
+        COMBO_UP {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <6 7>;
+        };
+
+        COMBO_LEFT {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <15 16>;
+        };
+
+        COMBO_UP_R {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <40 41>;
+        };
+
+        COMBO_RIGHT {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <17 18>;
+        };
+
+        COMBO_DOWN {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <16 17>;
         };
     };
 
@@ -75,13 +100,13 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q      &kp L         &kp U        &kp COMMA  &kp PERIOD                                &kp F      &kp W     &kp R           &kp Y           &kp P
-&kp E      &kp I         &kp A        &kp O      &kp MINUS                                 &kp K      &kp T     &kp N           &kp S           &kp H
-&kp Z      &kp X         &kp C        &kp V      &kp SLASH                                 &kp G      &kp D     &kp M           &kp J           &kp B
-&kp LSHFT  &kp LEFT_ALT  &kp LCTRL    &mo 1      &kp SPACE   &kp LC(SPACE)  &kp BACKSPACE  &kp ENTER  &mo 2     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-           &none         &kp RIGHT    &kp DOWN   &kp LEFT    &kp UP         &kp UP         &kp LEFT   &kp DOWN  &kp RIGHT       &none
-&mkp LCLK  &mkp RCLK     &mkp MCLK                                                                              &mkp LCLK       &mkp RCLK       &mkp MCLK
-&mkp MB4   &mkp MB5      &kp LG(TAB)  &kp LG(D)  &kp LCTRL                                 &mkp MB4   &mkp MB5  &kp LG(TAB)     &kp LG(D)       &kp LCTRL
+&kp Q              &kp L         &kp U        &kp COMMA  &kp PERIOD                                    &kp F      &kp W     &kp R           &kp Y           &kp P
+&kp E              &kp I         &kp A        &kp O      &kp MINUS                                     &kp K      &kp T     &kp N           &kp S           &kp H
+&mt2 LEFT_SHIFT Z  &kp X         &kp C        &kp V      &kp SLASH                                     &kp G      &kp D     &kp M           &kp J           &kp B
+&kp LSHFT          &kp LEFT_ALT  &kp LCTRL    &mo 1      &kp SPACE   &kp LC(BACKSPACE)  &kp LC(SPACE)  &kp ENTER  &mo 2     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                   &none         &kp RIGHT    &kp DOWN   &kp LEFT    &kp UP             &kp UP         &kp LEFT   &kp DOWN  &kp RIGHT       &none
+&mkp LCLK          &mkp RCLK     &mkp MCLK                                                                                  &mkp LCLK       &mkp RCLK       &mkp MCLK
+&mkp MB4           &mkp MB5      &kp LG(TAB)  &kp LG(D)  &kp LCTRL                                     &mkp MB4   &mkp MB5  &kp LG(TAB)     &kp LG(D)       &kp LCTRL
             >;
         };
 
